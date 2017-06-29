@@ -19,6 +19,8 @@ $ . ./oe-init-build-env
 $ bitbake-layers add-layer ../meta-openembedded/meta-oe
 $ bitbake-layers add-layer ../meta-nodejs
 $ bitbake-layers add-layer ../meta-nodejs-contrib
+$ bitbake-layers add-layer ../meta-openembedded/meta-python
+$ bitbake-layers add-layer ../meta-openembedded/meta-networking
 $ bitbake-layers add-layer ../meta-openwrt
 ```
 
